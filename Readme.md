@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Илья Кузнецов](https://up.htmlacademy.ru/adaptive/19/user/292029).
-* Наставник: `Неизвестно`.
+* Наставник: [Илья Сачев](https://htmlacademy.ru/profile/id11939).
 
 ---
 
