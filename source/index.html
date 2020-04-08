@@ -8,24 +8,26 @@
 
     <header class="page-header">
       <a class="page-header__logo" href="#">
-        <img class="page-header__logo-image" src="https://via.placeholder.com/33x38" alt="Логотип Cat Energy">
+        <div class="page-header__img-wrapper">
+          <img class="page-header__logo-image" src="https://via.placeholder.com/33x38" alt="Логотип Cat Energy">
+        </div>
       </a>
       <nav class="main-nav">
         <button class="main-nav__toogle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active">
-              <a href="#">
+          <ul class="main-nav__list nav-list">
+            <li class="nav-list__item">
+              <a class="nav-list__linkl" href="#">
                 Главная
               </a>
             </li>
-            <li class="site-list__item">
-              <a href="catalog.html">
+            <li class="nav-list__item nav-list__item--active">
+              <a class="nav-list__linkl" href="catalog.html">
                 Каталог продукции
               </a>
             </li>
-            <li class="site-list__item">
-              <a href="form.html">
+            <li class="nav-list__item">
+              <a class="nav-list__linkl" href="form.html">
                 Подбор программы
               </a>
             </li>
@@ -43,7 +45,9 @@
         <p>
           Занялся собой? Займись котом!
         </p>
-        <img src="https://via.placeholder.com/280x270" alt="Баночка нашего корма">
+        <div class="welcome-block__img-wrapper">
+          <img src="https://via.placeholder.com/280x270" alt="Баночка нашего корма">
+        </div>
         <button class="button welcome-block__button" type="button">
           Подобрать программу
         </button>
@@ -107,19 +111,19 @@
           Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
         </p>
         <ul class="example__stats">
-          <li class="example__weight-stats">
-            <b class="example__weight-count">
+          <li class="example__item">
+            <b class="example__item-value">
               5 кг
             </b>
-            <p class="example__weight-legend">
+            <p class="example__item-name">
               снижение веса
             </p>
           </li>
-          <li class="example__days">
-            <b class="example__days-count">
+          <li class="example__item">
+            <b class="example__item-value">
               60 дней
             </b>
-            <p class="example__days-legend">
+            <p class="example__item-name">
               затрачено времени
             </p>
           </li>
@@ -127,7 +131,9 @@
         <p class="example__cost">
           затраты на питание: 15000 руб.
         </p>
-        <img src="https://via.placeholder.com/311x232" alt="Пример действия нашего корма">
+        <div class="example__img-wrapper">
+          <img src="https://via.placeholder.com/311x232" alt="Пример действия нашего корма">
+        </div>
         <div class="example__live-photo">
           <p class="example__before">
             Было
@@ -149,37 +155,43 @@
         <p class="adres dealer-welcome__adress">
           ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
         </p>
-        <img class="map dealer-welcome__map" src="https://via.placeholder.com/320x362" alt="Карта проезда">
+        <div class="dealer-welcome__img-wrapper">
+          <img class="map dealer-welcome__map" src="https://via.placeholder.com/320x362" alt="Карта проезда">
+        </div>
       </section>
     </main>
 
     <footer class="page-footer">
-      <img class="page-footer__logo" src="https://via.placeholder.com/128x24" alt="Логотип Cat Energy">
-      <section class="contacts page-footer__contacts">
+      <div class="page-footer__img-wrapper">
+        <img class="page-footer__logo" src="https://via.placeholder.com/128x24" alt="Логотип Cat Energy">
+      </div>
+      <div class="contacts page-footer__contacts">
         <ul class="contact-list contacts__contact-list">
-          <li class="contact-item contact-item">
+          <li class="contact-item contact-item--vk">
             <a class="contact-link contact-link--vk" href="#">
               Вконтакте
             </a>
           </li>
-          <li class="contact-item page-footer__contact-item">
+          <li class="contact-item contact-item--instagram">
             <a class="contact-link contact-link--instagram" href="#">
               Инстаграм
             </a>
           </li>
-          <li class="contact-item page-footer__contact-item">
+          <li class="contact-item contact-item--fb">
             <a class="contact-link contact-link--fb" href="#">
               Фейсбук
             </a>
           </li>
         </ul>
-      </section>
-      <section class="developers page-footer__developers">
+      </div>
+      <div class="developers page-footer__developers">
         <a class="developers__link" href="https://htmlacademy.ru/study">
-          <b class="developers-name">html academy</b>
-          <img src="https://via.placeholder.com/27x34" alt="Лого разработчиков сайта">
+          <b class="developers__title">html academy</b>
+          <div class="developers__img-wrapper">
+            <img src="https://via.placeholder.com/27x34" alt="Лого разработчиков сайта">
+          </div>
         </a>
-      </section>
+      </div>
     </footer>
 
   </body>
