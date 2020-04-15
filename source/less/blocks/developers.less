@@ -1,14 +1,16 @@
 @import "../secondary/fonts.less";
 @import "../secondary/block-size.less";
-.developers{
-  &__link{
+
+.developers {
+  &__link {
     text-decoration: none;
     color: #444444;
-    &::after{
+
+    &::after {
       display: block;
       content: "";
       .block-size(27px; 34px);
-      background-image: url(../../img/htmlacademy.svg);
+      background-image: url("../../img/htmlacademy.svg");
       background-repeat: no-repeat;
       background-position: center;
     }
