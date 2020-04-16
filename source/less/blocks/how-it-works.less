@@ -1,9 +1,7 @@
-@import "../secondary/fonts.less";
-@import "../secondary/block-size.less";
-
 .how-it-works {
   &__header {
-    .block-header-text-size;
+    font-size: 36px;
+    line-height: 36px;
   }
 
   &__list {
@@ -11,45 +9,41 @@
   }
 
   &__item {
-    .text-size;
+    font-size: 14px;
+    line-height: 18px;
     color: #444444;
 
     &::before {
       display: block;
       content: "";
-      .block-size(60px; 60px);
+      width: 60px;
+      height: 60px;
       background-color: #68b738;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     &:nth-child(1) {
       &::before {
-        background-image: url("../../img/advantage-leaf@1x.png");
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url("../img/advantage-leaf@1x.png");
       }
     }
 
     &:nth-child(2) {
       &::before {
-        background-image: url("../../img/advantage-powder@1x.png");
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url("../img/advantage-powder@1x.png");
       }
     }
 
     &:nth-child(3) {
       &::before {
-        background-image: url("../../img/advantage-dining@1x.png");
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url("../img/advantage-dining@1x.png");
       }
     }
 
     &:nth-child(4) {
       &::before {
-        background-image: url("../../img/advantage-clock@1x.png");
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url("../img/advantage-clock@1x.png");
       }
     }
   }

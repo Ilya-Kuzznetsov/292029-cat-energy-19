@@ -1,27 +1,27 @@
-@import "../secondary/fonts.less";
-@import "../secondary/block-size.less";
-
 .contacts {
   &__list {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   &__item {
     font-size: 0;
-    .block-size(22px; 19px);
+    width: 22px;
+    height: 19px;
     background-repeat: no-repeat;
     background-position: center;
 
-    &:nth-child(1) {
-      background-image: url("../../img/icon-vk.svg");
+    &--vk {
+      background-image: url("../img/icon-vk.svg");
     }
 
-    &:nth-child(2) {
-      background-image: url("../../img/icon-insta.svg");
+    &--instagram {
+      background-image: url("../img/icon-insta.svg");
     }
 
-    &:nth-child(3) {
-      background-image: url("../../img/icon-fb.svg");
+    &--fb {
+      background-image: url("../img/icon-fb.svg");
     }
   }
 }
